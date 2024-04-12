@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Google Sans, Noto, Roboto, Helvetica Neue, sans-serif;
+    color: transparent;
+    background-image: url("https://cdn.glitch.global/360eb00e-d92b-4ed5-8285-6cb251bcf511/Back.jpg?v=1712774161733");
+  }
+  /*
+  #card {
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    border-radius: 25px;
+    margin-top: 1px;
+    background-color: transparent;
+    border:;
+  }
+  */
+  model-viewer {
+    width: 100%;
+    height: 500px;
+    background-color: transparent;
+    border-radius: 25px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    z-index: 0;
+  }
+  .form-container {
+    display: grid;
+  }
+  
+  .brand img{
+    display: block;
+    margin:auto;
+    max-width:130px;
+    max-height:130px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+  
+  .color-block {
+      background-color: #fde0be;
+      height: 75px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .centered-image {
+      max-width: 50%;
+      max-height: 50%;
+      display: block;
+  }
+  
+  h1 {
+    margin: 0 0 0.5em;
+    color: #eff3f8;
+    font-size: large;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    margin-top: 30px;
+  }
+  p {
+    margin: 0 0 0.5em;
+    color: #eff3f8;
+    font-size: small;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+  }
+  .texto-info {
+    margin-bottom: 0px;
+  }
+  .form-container img {
+    margin-top: 50px;
+    border-radius: 10px;
+  }
